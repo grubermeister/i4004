@@ -710,7 +710,6 @@ def dumpCore():
 def main():
 	global prom, test
 	#we need to know where in our PROM the program monitor will be writing
-	#(remember we're little endian here)
 	temp = 0
 	
 	resetPROM()
